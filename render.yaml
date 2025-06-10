@@ -1,6 +1,5 @@
 databases:
   - name: skills-db
-    engine: postgres
 
 services:
   - type: web
