@@ -1,9 +1,10 @@
 services:
-  - type: psql   
+  - type: db        
     name: skills-db
+    engine: postgres 
     plan: free
 
-  - type: web   
+  - type: web
     name: skills-api
     plan: free
     runtime: docker
